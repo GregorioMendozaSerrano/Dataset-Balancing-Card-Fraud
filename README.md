@@ -15,8 +15,9 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 - Random Downsampling
 - SMOTE Resampling
 - ADASYN Resampling
+- 
+Note2: This notebook was designed to be run locally.
 ---
-**Note2:** This notebook is designed to be executed locally.
 ---
 
 ## **Balancing Methods**
