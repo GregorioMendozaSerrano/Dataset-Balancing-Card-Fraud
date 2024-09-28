@@ -19,7 +19,7 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 
 ## **Balancing Methods**
 
-**"Random upsampling"** is a technique used to balance imbalanced datasets by randomly increasing the number of samples in the minority class. In this process, samples from the minority class are randomly selected and duplicated, which helps to equalize the representation of classes in the dataset and improve the performance of predictive models in situations of extreme imbalance.
+<font color='IndianRed'>**"Random upsampling"**</font> is a technique used to balance imbalanced datasets by randomly increasing the number of samples in the minority class. In this process, samples from the minority class are randomly selected and duplicated, which helps to equalize the representation of classes in the dataset and improve the performance of predictive models in situations of extreme imbalance.
 
 
 **"Random downsampling"** is a technique used to reduce the number of samples in the majority class of an imbalanced dataset. This is achieved by randomly selecting samples from the majority class and removing them from the dataset, which helps to balance the representation of the classes and improve the performance of predictive models in situations of extreme imbalance.
