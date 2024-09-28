@@ -34,9 +34,7 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 This process is repeated until the desired number of synthetic samples of the minority class is reached. This allows for an increase in the representation of the minority class in the dataset, which helps to improve the performance of predictive models in situations of extreme imbalance.
 
 
-**ADASYN (Adaptive Synthetic Sampling)** is a resampling method used to balance imbalanced datasets in machine learning. This method generates synthetic samples for the minority classes based on the density distribution of the original samples. Unlike techniques such as SMOTE, ADASYN focuses on generating synthetic samples for the minority samples that are harder to learn, which can significantly improve the performance of predictive models in situations of extreme imbalance.
-
-ADASYN works as follows:
+**ADASYN (Adaptive Synthetic Sampling)** is a resampling method used to balance imbalanced datasets in machine learning. This method generates synthetic samples for the minority classes based on the density distribution of the original samples. Unlike techniques such as SMOTE, ADASYN focuses on generating synthetic samples for the minority samples that are harder to learn, which can significantly improve the performance of predictive models in situations of extreme imbalance. ADASYN works as follows:
 1. **Density Distribution**: The density distribution of each sample in the minority class is calculated.
 2. **Synthetic Sample Generation**: Synthetic samples are generated based on the calculated density distribution.
 3. **Adaptation**: The number of synthetic samples generated is adjusted according to the learning difficulty of each minority sample, allowing the focus to be on the harder samples.
