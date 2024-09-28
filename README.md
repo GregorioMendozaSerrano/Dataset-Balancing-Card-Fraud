@@ -17,6 +17,9 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 - ADASYN Resampling
 ---
 **Note2:** This notebook is designed to be executed locally.
+---
+
+## **Balancing Methods**
 
 **"Random upsampling"** is a technique used to balance imbalanced datasets by randomly increasing the number of samples in the minority class. In this process, samples from the minority class are randomly selected and duplicated, which helps to equalize the representation of classes in the dataset and improve the performance of predictive models in situations of extreme imbalance.
 
