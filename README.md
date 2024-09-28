@@ -17,3 +17,5 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download
 - ADASYN Resampling
 ---
 **Note2:** This notebook is designed to be executed locally. 
+---
+# 2. Balancing Methods (Functions)
